@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<script src="https://kit.fontawesome.com/2a586fba3a.js" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+		integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<title>Instagram</title>
+	<link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+	<!--%%%%%%%%%%%%%%%%%%%%%%%%% START - NAV TOP BAR - START %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%-->
+
+	<div class="d-flex flex-column flex-md-row align-items-center p-2 px-md-4 mb-3 bg-white border-bottom box-shadow">
+		<i class="fab fa-instagram"></i>
+		<h5 class="my-0 mr-md-auto font-weight-normal"> Instagram</h5>
+		<nav class="my-2 my-md-0 mr-md-3">
+			<!--%%% RIGHT SIDE MENU START %%%-->
+			<div class="dropdown">
+				<!--%%% GREEN CREATE POST BUTTON MODAL %%%-->
+				<button class="btn btn-success" data-toggle="modal" data-target="#scaleModal">Create a new post</button>
+				<!--%%% DROPDOWN COG %%%-->
+				<button class="btn dropdown-toggle" type="button" data-toggle="dropdown"><i class="fas fa-cog p-2"></i>
+                         <span class="caret"></span></button>
+				<ul class="dropdown-menu">
+					<li><a href="#">Action</a></li>
+					<li><a href="#">Other Action</a></li>
+					<li><a href="#">Something else here</a></li>
+                     <div class="dropdown-divider"></div>
+                     <li><a href="#">Log Out</a></li>
+				</ul>
+			</div>
+
+		</nav>
+	</div>
+
+	<!--%%%%%%%%%%%%%%%%%%%%%%%%% END NAV TOP BAR END %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%-->
+                    <!--PILL NAV-->
+	<div class="container-fluid">
+		<ul class="nav nav-pills justify-content-center px-5">
+			<li class="nav-item">
+				<a class="nav-link" href="#multi" role="tab" data-toggle="tab"> <i class="fas fa-th"></i></a>
+			</li>
+			&nbsp;
+			&nbsp;
+			<li class="nav-item">
+				<a class="nav-link" href="#single" role="tab" data-toggle="tab"><i class="fas fa-square"></i></a>
+			</li>
+		</ul>
+	</div>
+
+
+	<!-- Tab panes -->
+	<div class="tab-content">
+
+		<!--11111111111111111111111111111111111  multi pictures start  111111111111111111111111111111111111111111111111-->
+		<div role="tabpanel" class="tab-pane fade mt-4" id="multi">
+			<!-- content start -->
+			<div class="container-fluid">
+				<div class="row flex">
+
+					<div class="col-lg-4 col-sm-6">
+						<div class="thumbnail">
+							<img src="https://source.unsplash.com/sBvouTuXoAE">
+				</div>
+						</div>
+						<div class="col-lg-4 col-sm-6">
+							<div class="thumbnail">
+								<img src="https://source.unsplash.com/VQYxQiiRky0">
+				</div>
+							</div>
+							<div class="col-lg-4 col-sm-6">
+								<div class="thumbnail">
+									<img src="https://source.unsplash.com/gJFvHkUHdSI">
+				</div>
+								</div>
+								<div class="col-lg-4 col-sm-6">
+									<div class="thumbnail">
+										<img src="https://source.unsplash.com/Bjw6dbIYtNE">
+				</div>
+									</div>
+									<div class="col-lg-4 col-sm-6">
+										<div class="thumbnail">
+											<img src="https://source.unsplash.com/C52dylsC1-g">
+				</div>
+										</div>
+										<div class="col-lg-4 col-sm-6">
+											<div class="thumbnail">
+												<img src="https://source.unsplash.com/wsMwDxF8SKA">
+				</div>
+											</div>
+											<div class="col-lg-4 col-sm-6">
+												<div class="thumbnail">
+													<img src="https://source.unsplash.com/sfze-8LfCXI">
+				</div>
+												</div>
+												<div class="col-lg-4 col-sm-6">
+													<div class="thumbnail">
+														<img src="https://source.unsplash.com/8oydDuX4AAM">
+				</div>
+													</div>
+													<div class="col-lg-4 col-sm-6">
+														<div class="thumbnail">
+															<img src="https://source.unsplash.com/PN_c3RKCVlA">
+				</div>
+														</div>
+
+													</div>
+
+												</div>
+
+
+											</div>
+											<!--1111111111111111111111111111111111111 multi pictures END 111111111111111111111111111111111111111111111111-->
+
+											<!--SINGLE PICTURES START-->
+											<div role="tabpanel" class="tab-pane fade" id="single">
+												<div class="container">
+													<div class="post">
+														<div class="post-header">
+															<div>
+																<h2>First Photo</h2>
+															</div>
+															<div>
+																<span>12/14</span>
+															</div>
+														</div>
+														<div>
+															<img src="http://lorempixel.com/400/200/"></img>
+														</div>
+														<div>
+                                                        <h6 class="likes">23 likes</h6>
+															<p>This is my first photo of the feed. this is a multi line
+																comment for testing purposes. I am learning to code with
+																<strong>#Breathecode</strong></p>
+														</div>
+													</div>
+													<div class="post">
+														<div class="post-header">
+															<div>
+																<h2>First Photo</h2>
+															</div>
+															<div>
+																<span>12/14</span>
+															</div>
+														</div>
+														<div>
+															<img src="http://lorempixel.com/400/200/"></img>
+														</div>
+														<div>
+                                                          <h6 class="likes">23 likes</h6>
+															<p>This is my first photo of the feed. this is a multi line
+																comment for testing purposes. I am learning to code with
+																<strong>#Breathecode</strong></p>
+														</div>
+													</div>
+													<div class="post">
+														<div class="post-header">
+															<div>
+																<h2>First Photo</h2>
+															</div>
+															<div>
+																<span>12/14</span>
+															</div>
+														</div>
+														<div>
+															<img src="http://lorempixel.com/400/200/"></img>
+														</div>
+														<div>
+                                                          <h6 class="likes">23 likes</h6>
+															<p>This is my first photo of the feed. this is a multi line
+																comment for testing purposes. I am learning to code with
+																<strong>#Breathecode</strong></p>
+														</div>
+													</div>
+													<div class="post">
+														<div class="post-header">
+															<div>
+																<h2>First Photo</h2>
+															</div>
+															<div>
+																<span>12/14</span>
+															</div>
+														</div>
+														<div>
+															<img src="http://lorempixel.com/400/200/"></img>
+														</div>
+														<div>
+                                                          <h6 class="likes">23 likes</h6>
+															<p>This is my first photo of the feed. this is a multi line
+																comment for testing purposes. I am learning to code with
+																<strong>#Breathecode</strong></p>
+														</div>
+													</div>
+													<div class="post">
+														<div class="post-header">
+															<div>
+																<h2>First Photo</h2>
+															</div>
+															<div>
+																<span>12/14</span>
+															</div>
+														</div>
+														<div>
+															<img src="http://lorempixel.com/400/200/"></img>
+														</div>
+														<div>
+                                                          <h6 class="likes">23 likes</h6>
+															<p>This is my first photo of the feed. this is a multi line
+																comment for testing purposes. I am learning to code with
+																<strong>#Breathecode</strong></p>
+														</div>
+													</div>
+
+												</div>
+											</div>
+										</div>
+
+										<!--[][][][][][][][][][][][][] MODAL CONTENT - START [][][][][][][][][][][][][]-->
+										<div class="modal fade-scale" id="scaleModal" tabindex="-1" role="dialog"
+											aria-labelledby="myModalLabel">
+											<div class="modal-dialog" role="document">
+												<div class="modal-content">
+													<div class="modal-header">
+														<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+													</div>
+													<div class="modal-body">
+														<form>
+															<div class="form-group">
+																<textarea class="form-control" rows="5" id="comment"></textarea>
+															</div>
+														</form>
+														<button class="btn"><i class="fas fa-camera"></i></i></button></button>
+														<button class="btn"><i class="fas fa-map-marker-alt"></i></button></button>
+													</div>
+													<div class="modal-footer">
+														<button type="button" class="btn" data-dismiss="modal">Cancel</button>
+														<button type="button" class="btn btn-success">Publish</button>
+													</div>
+												</div>
+											</div>
+										</div>
+										<!--[][][][][][][][][][][][][] MODAL CONTENT - START [][][][][][][][][][][][][]-->
+										<!--JJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJ SCRIPTS JJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJ-->
+										<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+											integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+											crossorigin="anonymous">
+										</script>
+										<script
+											src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+											integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+											crossorigin="anonymous">
+										</script>
+										<script
+											src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+											integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+											crossorigin="anonymous">
+										</script>
+</body>
+
+</html>
